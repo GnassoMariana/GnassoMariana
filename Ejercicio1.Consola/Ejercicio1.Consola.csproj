@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ejercicio1.Entidades\Ejercicio1.Entidades.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MiDLL.dll">
+      <HintPath>..\..\MiDLL\MiDLL.dll\bin\Debug\net6.0\MiDLL.dll.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
